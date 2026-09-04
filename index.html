@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stickman Lab — Finance &amp; Economics for Beginners</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grid-veil"></div>
+
+<header class="masthead">
+  <div class="masthead-left">
+    <span class="stamp">FIELD NOTEBOOK №1</span>
+    <h1>Stickman Lab</h1>
+    <p class="subtitle">10 interactive tools from the <em>Finance &amp; Economics for Beginners</em> curriculum — built on Mankiw &amp; Brealey/Myers/Marcus.</p>
+    <div class="masthead-ctas">
+      <a href="#videos" class="btn">🎬 Video Course — 46 Lessons</a>
+      <a href="https://www.youtube.com/@liteconomics" target="_blank" rel="noopener" class="btn ghost">▶ YouTube Channel</a>
+    </div>
+  </div>
+  <div class="masthead-right">
+    <svg class="stickman-badge" viewBox="0 0 120 120" aria-hidden="true">
+      <circle cx="60" cy="60" r="58" fill="none" stroke="var(--grid-line)" stroke-width="1"/>
+      <g id="badge-stickman" stroke="var(--ink)" stroke-width="3.5" fill="none" stroke-linecap="round">
+        <circle cx="60" cy="38" r="12" fill="var(--paper)"/>
+        <line x1="60" y1="50" x2="60" y2="80"/>
+        <line x1="60" y1="58" x2="42" y2="70"/>
+        <line x1="60" y1="58" x2="78" y2="70"/>
+        <line x1="60" y1="80" x2="46" y2="104"/>
+        <line x1="60" y1="80" x2="74" y2="104"/>
+      </g>
+    </svg>
+  </div>
+</header>
+
+<div class="layout">
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-label">10 modules</div>
+    <ol id="nav-list"></ol>
+  </nav>
+
+  <main class="stage">
+    <div id="tool-header">
+      <span class="module-tag" id="module-tag">01</span>
+      <h2 id="tool-title">Loading…</h2>
+      <p id="tool-desc"></p>
+    </div>
+
+    <div class="notebook-panel">
+      <div class="margin-note">
+        <svg class="stickman-margin" viewBox="0 0 100 160" aria-hidden="true">
+          <g id="margin-stickman" stroke="var(--ink)" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <circle id="ms-head" cx="50" cy="34" r="14" fill="var(--paper)"/>
+            <path id="ms-face" d="M44,36 Q50,40 56,36" />
+            <line x1="50" y1="48" x2="50" y2="92"/>
+            <line id="ms-arm-l" x1="50" y1="58" x2="28" y2="72"/>
+            <line id="ms-arm-r" x1="50" y1="58" x2="72" y2="72"/>
+            <line x1="50" y1="92" x2="32" y2="128"/>
+            <line x1="50" y1="92" x2="68" y2="128"/>
+          </g>
+        </svg>
+        <p class="margin-caption" id="stickman-caption">Adjust the numbers — Stickman is watching.</p>
+      </div>
+      <div id="tool-root" class="tool-root">
+        <!-- tool UI injected here -->
+      </div>
+    </div>
+
+    <div class="academic-base" id="academic-base"></div>
+  </main>
+</div>
+
+<footer class="site-footer">
+  <p>Free &amp; open · part of <strong>Finance &amp; Economics for Beginners</strong> — Democratizing Economic Intelligence.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
