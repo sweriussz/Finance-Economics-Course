@@ -72,7 +72,7 @@ The project operates across three integrated layers:
 
 - **🎬 YouTube — The Visual Engine.** The entry point: dynamic animations with high-retention storytelling that drive global awareness. → [@liteconomics](https://www.youtube.com/@liteconomics)
 - **💻 GitHub — The Interactive Hub.** *(you are here)* The technical heart. Students don't just watch — they build, using interactive JS calculators, financial models, and open-source cheat sheets.
-- **🎓 Udemy — The Masterclass.** The structured academic path: deep-dive lectures, rigorous testing, and official certification for career and university advancement.
+
 
 ## What's in This Repo
 
